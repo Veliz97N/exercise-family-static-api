@@ -8,24 +8,24 @@ class FamilyStructure:
         # example list of members
         self._members = [{
                 "id": self._generateId(),
-                "first_name": "Nicolas",
+                "first_name": "John",
                 "last_name": last_name,
-                "age": 24,
-                "lucky_numbers": [18,1,4]
+                "age": 33,
+                "lucky_numbers": [7,13,22]
             },
             {
                 "id": self._generateId(),
-                "first_name": "Katherine",
+                "first_name": "Jane",
                 "last_name": last_name,
-                "age": 26,
-                "lucky_numbers": [21,1,2]
+                "age": 35,
+                "lucky_numbers": [10,14,3]
             },
             {
                 "id": self._generateId(),
-                "first_name": "Jose",
+                "first_name": "Jimmy",
                 "last_name": last_name,
-                "age": 3,
-                "lucky_numbers": [13,11,4]
+                "age": 5,
+                "lucky_numbers": [1]
             }]
 
     # read-only: Use this method to generate random members ID's when adding members into the list
